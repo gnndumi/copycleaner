@@ -1,4 +1,4 @@
-```html id="k9d2lp"
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,6 +52,18 @@
       margin-top: 15px;
     }
 
+    .top-link {
+      margin-bottom: 20px;
+      display: inline-block;
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .top-link:hover {
+      text-decoration: underline;
+    }
+
     footer {
       margin-top: 50px;
       text-align: center;
@@ -59,12 +71,12 @@
       color: #9ca3af;
     }
 
-    a {
+    footer a {
       color: #2563eb;
       text-decoration: none;
     }
 
-    a:hover {
+    footer a:hover {
       text-decoration: underline;
     }
   </style>
@@ -73,6 +85,9 @@
 <body>
 
 <div class="container">
+
+  <!-- 🔗 Link homepage in alto -->
+  <a class="top-link" href="index.html">← Back to homepage</a>
 
   <div class="card">
     <h1>Privacy Policy for Smart Copy Cleaner</h1>
@@ -104,8 +119,12 @@
     </p>
   </div>
 
+  <!-- 🔗 Link homepage anche sotto -->
   <footer>
-    © 2026 Smart Copy Cleaner
+    <p>
+      <a href="index.html">Back to homepage</a>
+    </p>
+    <p>© 2026 Smart Copy Cleaner</p>
   </footer>
 
 </div>
